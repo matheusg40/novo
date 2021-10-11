@@ -1,0 +1,177 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+  }
+
+  .header {
+    padding: 317px;
+    text-align: left;
+    background-image: url("img/Background.png");
+    background-size: 100%;
+    background-attachment: fixed;
+    color: white;
+  }
+
+  .header p {
+    position: absolute;
+    left: 20px;
+    top: 70px;
+    font-size: 28px;
+    font-family: 'Agency FB';
+
+  }
+
+  .header h1 {
+    position: absolute;
+    left: 20px;
+    font-size: 52px;
+    top: 0px;
+    font-family: 'Agency FB';
+  }
+
+  .main h1 {
+    font-size: 30px;
+    font-family: Calibri Light;
+
+
+  }
+  
+  .main p {
+    font-size: 20px;
+    font-family: calibri;
+    text-align: justify;
+
+  }
+
+
+  /* 
+  nav fixa
+  .navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+
+  .navbar a.right {
+    float: right;
+  }
+
+
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: #666;
+    color: white;
+  } */
+
+  /* navq muda */
+  #navbar {
+    background-color: #000;
+    position: fixed;
+    top: -50px;
+    width: 100%;
+    display: block;
+    transition: top 0.3s;
+  }
+
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* navq muda */
+
+  .row {
+    display: -ms-flexbox;
+
+    display: flex;
+    -ms-flex-wrap: wrap;
+
+    flex-wrap: wrap;
+  }
+
+  .side {
+    -ms-flex: 30%;
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+
+  /* .main {
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  } */
+  .main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 65em;
+
+  }
+
+  .footer {
+    clear: both;
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+
+  #lampada {
+    position: relative;
+    padding: -20;
+    width: 100px;
+    border: none;
+
+  }
+
+  .corta {
+    top: 500px;
+
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 40%;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  

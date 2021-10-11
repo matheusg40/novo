@@ -1,0 +1,313 @@
+<!-- <!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+<style>
+
+    body,
+    html {
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    input[type=text] {
+      width: 100%;
+      padding: 15px;
+      margin: 5px 0 22px 0;
+      border: none;
+      background: #ffffff;
+    }
+
+    input[type=text]:focus,
+    input[type=password]:focus {
+      background-color: #ddd;
+      float: left;
+      outline: none;
+    }
+
+    form {
+      width: 450px;
+      border-radius: 10px;
+      padding: 10px 20px;
+    }
+
+    .btn {
+      background-color: #6c9fff;
+      color: white;
+      padding: 16px 20px;
+      border: none;
+      cursor: pointer;
+      width: 100%;
+      opacity: 0.9;
+    }
+
+    .btn:hover {
+      opacity: 1;
+    }
+
+    .container {
+    
+      border-radius: 5px;
+      background-color: rgb(238, 238, 238);
+      padding: 20px;
+    }
+
+
+</style>
+</head>
+<body>
+    
+    <section id="contato">
+      <div class="bg-img">
+        <form action="/action_page.php" class="container">
+
+
+          <h1>Contato</h1>
+          <div id="container">
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="digite seu email" name="email" required>
+
+            <label for="nome"><b>Nome</b></label>
+            <input type="text" placeholder="digite seu nome" name="nome" required>
+            <div class="selec">
+              <label for="Assunto"><b>Assunto</b></label>
+              <select name="Assunto" id="assunto">Assunto
+                <option value="critica">Critica</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="duvida">dúvida</option>
+
+            </div>
+            </select>
+
+          </div>
+
+          <br>
+          <div id="conteudo-2">
+            <div id="conteudo-2-1">
+              <label for="conh"><b>Como nos conheceu?</b></label>
+              <br>
+              <input type="radio" name="redes" value="face" checked>Facebook
+              <br>
+              <input type="radio" name="redes" value="Google">Google
+              <br>
+              <input type="radio" name="redes" value="Amigo">Amigo
+            </div>
+          </div>
+      </div>
+
+      <br>
+      <br>
+
+      <label for="aten"><b>Como prefere ser atendido</b></label>
+      <br>
+      <input type="checkbox" name="whats" value="WhatsApp">WhatsApp
+      <br>
+      <input type="checkbox" name="email" value="Email">E-mail
+      <br>
+      <input type="checkbox" name="telefone" value="telefone">telefone
+      <br>
+      <br>
+
+
+      <label for="mensagem"><b>Sua mensagem</b></label>
+      <br>
+      <textarea cols="48" rows="5">
+</textarea>
+
+      <br>
+      <br>
+      <button type="submit" class="btn">enviar</button>
+  </div>
+
+  </form>
+
+  <br>
+  </section>
+  </div>
+
+  </div>
+
+  </table>
+
+
+
+
+</body>
+</html> -->
+<!DOCTYPE html>
+
+<head>
+    <title>Contato</title>
+    <link rel="icon" href="img/IconAba.png" type="image/x-icon">
+
+
+    <style>
+        html {
+
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+
+            background-image: url('img/Background.png');
+            background-attachment: fixed;
+            background-size: 100%;
+
+
+        }
+
+        form {
+      width: 450px;
+      border-radius: 10px;
+      padding: 10px 20px;
+        }   
+
+
+        input{
+            font: 1em Helvetica;
+            box-sizing: border-box;
+            border: 1px solid #999
+        }
+        
+        
+        
+        select {
+            width: 300px;
+            font: 1em Helvetica;
+            box-sizing: border-box;
+            border: 1px solid #999
+            
+        }
+
+        input[type=text],
+        input[type=password],
+        input[type=email] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus,
+        input[type=email]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+
+        .btn {
+            background-color: #6c9fff;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+
+        .btn1 {
+            background-color: #6c9fff;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .ent {
+            text-align: center;
+        }
+
+        .container {
+            position: absolute;
+            right: 0;
+            margin: 20px;
+            max-width: 300px;
+            padding: 16px;
+            background-color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- <img id="lampada" src="img/apagada.png" onMouseOver="this.src='img/acesa.png';"
+      onMouseOut="this.src='img/apagada.png';"/>
+    -->
+
+    <form action="/action_page.php" class="container">
+
+
+        <h1>Contato</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="email" placeholder="digite seu email" name="email" required>
+
+            <label for="nome"><b>Nome</b></label>
+            <input type="text" placeholder="digite seu nome" name="nome" required>
+
+
+            <label for="Assunto"><b>Assunto</b></label>
+            <select name="Assunto" id="assunto">Assunto
+                <option value="critica">Critica</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="duvida">dúvida</option>
+            </select>
+
+
+        <br>
+
+        <br>
+        <label for="conh"><b>Como nos conheceu?</b></label><br>
+        <input type="radio" name="redes" value="face" checked>Facebook<br>
+        <input type="radio" name="redes" value="Google">Google<br>
+        <input type="radio" name="redes" value="Amigo">Amigo<br>
+        <br>
+
+
+        <label for="aten"><b>Como prefere ser atendido</b></label><br>  
+
+        <input type="checkbox" name="whats" value="WhatsApp">WhatsApp<br>
+
+        <input type="checkbox" name="email" value="Email">E-mail<br>
+
+        <input type="checkbox" name="telefone" value="telefone">telefone<br>
+        <br>
+
+
+        <label for="mensagem"><b>Sua mensagem</b></label>
+        <br>
+        <textarea cols="40" rows="5">
+</textarea>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="button">
+            <button type="submit" class="btn">Envie</button>
+
+        </div>
+
+
+    </form>
+
+
+
+</body>
+
+</html>
